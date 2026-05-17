@@ -11,14 +11,14 @@ const Navbar = () => {
     <nav className="bg-purple-100 py-4 shadow-md sticky top-0 z-50">
       <div className="grid grid-cols-2 md:grid-cols-3 items-center px-6 max-w-7xl mx-auto">
 
-        {/* Column 1 - Logo */}
+        {/* Logo */}
         <Link to={routes.home}>
           <h1 className="text-2xl font-serif hover:opacity-80 text-purple-900 tracking-wider transition duration-300">
             Lilac & Lace
           </h1>
         </Link>
 
-        {/* Column 2 - Nav links */}
+        {/* Nav links */}
         <ul className="hidden md:flex justify-center items-center gap-6 text-gray-800 font-medium">
 
           <li className="px-3 py-1 rounded-md hover:bg-purple-300 hover:text-purple-900 transition duration-300">
