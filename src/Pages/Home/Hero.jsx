@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import routes from "../../utils/routes";
-import heroImage from "../../Pages/Home/Hero";
+import heroImage from "../../assets/hero.jpeg";
 
 const Hero = () => {
 
