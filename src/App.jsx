@@ -4,8 +4,9 @@ import routes from "./utils/routes";
 import Footer from "./components/Footer/Footer";
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About";
-import Blogs from "./Pages/Blogs";
+import Blogs from "./Pages/BlogPost";
 import Contact from "./Pages/Contact";
+import BlogPost from "./pages/BlogPost";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path={routes.about} element={<About />} />
         <Route path={routes.blogs} element={<Blogs />} />
         <Route path={routes.contact} element={<Contact />} />
+        <Route path="/blogs/:slug" element={<BlogPost />} />
       </Routes>
       
        <Footer/>

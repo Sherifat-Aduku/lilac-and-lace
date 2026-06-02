@@ -4,6 +4,7 @@ const routes = {
   about: "/about",
   blogs: "/blogs",
   contact: "/contact",
+   blogPost: (slug) => `/blogs/${slug}`,
 }
 
 export default routes;
