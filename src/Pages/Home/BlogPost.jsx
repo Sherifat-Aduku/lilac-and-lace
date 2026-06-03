@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import routes from "../utils/routes";
+import routes from "../../utils/routes";
 
 const blogData = [
   {

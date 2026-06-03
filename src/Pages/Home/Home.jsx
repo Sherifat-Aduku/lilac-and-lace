@@ -1,7 +1,7 @@
 import Hero from "./Hero";
 import Featured from "./Featured";
 import DesignerShowcase from "./DesignerShowcase";
-import BlogPreview from "./BlogPreview";
+import BlogPreview from "../BlogPreview";
 import FinalCTA from "./FinalCTA"
 const Home = () => {
   return (
