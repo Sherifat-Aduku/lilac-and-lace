@@ -2,7 +2,6 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-
 import veekeeJames from "../../assets/veekeejames.jpg";
 import deolaSagoe from "../../assets/deolasagoe.jpg";
 import aishaAyensu from "../../assets/aishaayensu.jpg";

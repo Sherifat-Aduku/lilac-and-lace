@@ -4,7 +4,7 @@ import routes from "./utils/routes";
 import Footer from "./components/Footer/Footer";
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About";
-import Blogs from "./Pages/Home/BlogPost";
+import Blogs from "./Pages/BlogPost";
 import Contact from "./Pages/Contact";
 import BlogPost from "./Pages/Home/BlogPost";
 
